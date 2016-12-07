@@ -1,0 +1,14 @@
+<testsuites>
+	<testsuite name="AllTests" tests="10">
+		<testcase classname="AllTests" name="inWithNumberTest"/>
+		<testcase classname="AllTests" name="inWordAtEndTest"/>
+		<testcase classname="AllTests" name="noWordFoundTest"/>
+		<testcase classname="AllTests" name="wordConstructorExceptionTest"/>
+		<testcase classname="AllTests" name="outWordTest"/>
+		<testcase classname="AllTests" name="caseInsetiveTest"/>
+		<testcase classname="AllTests" name="readLineTest"/>
+		<testcase classname="AllTests" name="compareTest"/>
+		<testcase classname="AllTests" name="kwicTest"/>
+		<testcase classname="AllTests" name="kwicSentenceTest"/>
+	</testsuite>
+</testsuites>

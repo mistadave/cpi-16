@@ -1,0 +1,15 @@
+<testsuites>
+	<testsuite name="AllTests" tests="7">
+		<testcase classname="AllTests" name="outputWordTest"/>
+		<testcase classname="AllTests" name="constructorNonAlphaTest"/>
+		<testcase classname="AllTests" name="inputMultipleWordsTest"/>
+		<testcase classname="AllTests" name="kwicTest">
+			<failure message="..\src\Test.cpp:71 kwicTest: &quot;A B C D E \\nB C D E A \\nC D E A B \\nC Plus Plus \\nD E A B C \\nE A B C D \\nPlus C Plus \\nPlus Plus C \\n&quot; == os.str() expected:	A B C D E \nB C D E A \nC D E A B \nC Plus Plus \nD E A B C \nE A B C D \nPlus C Plus \nPlus Plus C \n	but was:	 A B C D E \n A B C D E C Plus Plus \n B C D E A \n B C D E C Plus Plus A \n C D E A B \n C D E C Plus Plus A B \n C Plus Plus A B C D E \n D E A B C \n D E C Plus Plus A B C \n E A B C D \n E C Plus Plus A B C D \n Plus A B C D E C Plus \n Plus Plus A B C D E C \n	">
+kwicTest: &quot;A B C D E \\nB C D E A \\nC D E A B \\nC Plus Plus \\nD E A B C \\nE A B C D \\nPlus C Plus \\nPlus Plus C \\n&quot; == os.str() expected:	A B C D E \nB C D E A \nC D E A B \nC Plus Plus \nD E A B C \nE A B C D \nPlus C Plus \nPlus Plus C \n	but was:	 A B C D E \n A B C D E C Plus Plus \n B C D E A \n B C D E C Plus Plus A \n C D E A B \n C D E C Plus Plus A B \n C Plus Plus A B C D E \n D E A B C \n D E C Plus Plus A B C \n E A B C D \n E C Plus Plus A B C D \n Plus A B C D E C Plus \n Plus Plus A B C D E C \n	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="compareTest"/>
+		<testcase classname="AllTests" name="inputSentenceTest"/>
+		<testcase classname="AllTests" name="outputSentenceTest"/>
+	</testsuite>
+</testsuites>
