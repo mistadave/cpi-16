@@ -1,0 +1,21 @@
+<testsuites>
+	<testsuite name="AllTests" tests="17">
+		<testcase classname="AllTests" name="atTest"/>
+		<testcase classname="AllTests" name="atOfConstTest"/>
+		<testcase classname="AllTests" name="atToLargeTest"/>
+		<testcase classname="AllTests" name="negativeAtTest"/>
+		<testcase classname="AllTests" name="negativeAtEqualSetSizeTest"/>
+		<testcase classname="AllTests" name="negativeAtLargerAsSetSizeTest"/>
+		<testcase classname="AllTests" name="negativeOperatorTest"/>
+		<testcase classname="AllTests" name="frontTest"/>
+		<testcase classname="AllTests" name="backTest"/>
+		<testcase classname="AllTests" name="operatorTest"/>
+		<testcase classname="AllTests" name="stringSetTest"/>
+		<testcase classname="AllTests" name="beginStringSetTest"/>
+		<testcase classname="AllTests" name="endStringSetTest"/>
+		<testcase classname="AllTests" name="defaultConstructorTest"/>
+		<testcase classname="AllTests" name="iteratorConstructorTest"/>
+		<testcase classname="AllTests" name="copyConstructorTest"/>
+		<testcase classname="AllTests" name="moveConstructorTest"/>
+	</testsuite>
+</testsuites>
